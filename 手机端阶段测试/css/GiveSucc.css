@@ -1,0 +1,113 @@
+html {
+	font-size: 50px;
+}
+
+.top {
+	position: relative;
+	margin: .65rem 0 .76rem 0;
+}
+
+.p1 img {
+
+	height: .36rem;
+	margin-left: .18rem;
+	font-weight: 400;
+}
+
+.top .p1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.top .p2 {
+	font-size: .36rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.succ {
+	text-align: center;
+	margin: 1.25rem auto .6rem auto;
+}
+
+.succ img {
+	width: 2rem;
+	/* height: 2rem; */
+}
+
+.fonts {
+	font-size: .4rem;
+	color: #333333;
+	font-weight: 600;
+	text-align: center;
+	display: block;
+	margin-bottom: 2rem;
+}
+
+.fonts1 {
+	font-size: .26rem;
+	color: #878787;
+	text-align: center;
+	margin: 0 .75rem .25rem .75rem;
+	display: inline-block;
+}
+
+.btn {
+	/* width: 100%; */
+	height: .9rem;
+	margin: 0 .3rem 0 .3rem;
+	background: rgb(9, 187, 7);
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+.btn a {
+	color: white;
+	font-size: .36rem;
+	display:block;
+	    padding: .25rem;
+	margin-top: .29rem;
+	margin-bottom: .29rem;
+}
+
+.footer {
+	margin-bottom: .5rem;
+	text-align: center;
+	margin-top: 3.55rem;
+}
+
+.footer a {
+	color: #000000;
+	font-size: .28rem;
+	font-weight: 400;
+
+}
+
+.a1 {
+	margin-right: .86rem;
+}
+
+.a2 {
+	margin-left: .80rem;
+}
+
+@media screen and (width: 414px) {
+	html {
+		font-size: 55px;
+	}
+}
+
+@media screen and (width: 320px) {
+	html {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	html {
+		font-size: 80px;
+	}
+}

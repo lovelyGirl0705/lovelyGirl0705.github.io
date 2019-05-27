@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 50px;
+}
+
+.top-name {
+	font-size: .36rem;
+	padding: .6rem 0 .3rem 0;
+	font-weight: 800;
+	text-align: center;
+
+}
+
+.top img {
+	width: 100%;
+	height: 100%;
+}
+
+.top {
+	position: relative;
+}
+
+.p1 {
+	font-size: .36rem;
+	padding-right: .3rem;
+	position: absolute;
+	height: .4rem;
+	top: 1.3rem;
+	bottom: 1.9rem;
+	right: 0;
+	font-weight: 800;
+}
+
+.p2 {
+	font-size: .24rem;
+	position: absolute;
+	top: 2.02rem;
+	bottom: 1.36rem;
+	right: 0;
+	padding-right: .3rem;
+}
+
+.love {
+	margin-top: .6rem;
+	margin: .6rem .45rem .5rem .45rem;
+	position: relative;
+}
+
+.love .img1 {
+	width: 100%;
+	height: 100%;
+}
+
+.love .cup {
+	position: absolute;
+	top: -11px;
+	right: -10px;
+	width: .51rem;
+	height: .48rem;
+}
+
+.flower img {
+	width: 4.7rem;
+	height: .35rem;
+
+}
+
+.flower {
+	text-align: center;
+	margin-bottom: .48rem;
+}
+
+.center img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: .42rem;
+}
+
+.center {
+	margin: 0 .45rem 0 .45rem;
+}
+
+.center .center-1 {
+	margin-bottom: .6rem;
+}
+
+.footer {
+	margin-bottom: .78rem;
+	text-align: center;
+}
+
+.footer a {
+	color: #000000;
+	font-size: .28rem;
+	font-weight: 400;
+
+}
+
+.a1 {
+	margin-right: .86rem;
+}
+
+.a2 {
+	margin-left: .80rem;
+}
+
+@media screen and (width: 414px) {
+	html {
+		font-size: 55px;
+	}
+}
+
+@media screen and (width: 320px) {
+	html {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	html {
+		font-size: 80px;
+	}
+}

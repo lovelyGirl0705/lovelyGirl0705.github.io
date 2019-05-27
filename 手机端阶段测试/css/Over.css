@@ -1,0 +1,188 @@
+html {
+	font-size: 50px;
+}
+.content{
+	position: relative;
+}
+.top {
+	position: relative;
+	margin: .65rem 0 .76rem 0;
+}
+
+.p1 img {
+
+	height: .36rem;
+	margin-left: .18rem;
+	font-weight: 400;
+}
+
+.top .p1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.top .p2 {
+	font-size: .36rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.gift {
+	text-align: center;
+	margin-top: .9rem;
+	position: relative;
+}
+
+.gift img {
+	width: 2.5rem;
+	height: 2.95rem;
+}
+
+.circle {
+	border-radius: 1rem;
+	height: 2rem;
+	width: 2rem;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: .55rem;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.circle img {
+	width: 1.8rem;
+	height: .45rem;
+	margin-top: .8rem;
+}
+
+.fonts {
+	margin-bottom: .35rem;
+	margin-top: .3rem;
+	text-align: center;
+	color:rgb(200,200,200);
+}
+
+.gift-font {
+	font-size: .3rem;
+	font-weight: 600;
+
+}
+.gift-font1{
+	font-size: .36rem;
+	margin-top:  .3rem;
+	display: inline-block;
+}
+.box {
+	/* width: 100%; */
+	/* height: 2.38rem; */
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	margin: 0 .3rem;
+}
+
+.one {
+	display: flex;
+	justify-content: space-between;
+	margin: .4rem;
+}
+
+.one span {
+	font-size: .28rem;
+	color: #656565;
+}
+
+.give {
+	margin: .25rem .3rem .6rem .3rem;
+	font-size: .22rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.p1 {
+	color: 878787;
+}
+.total{
+	font-size: .24rem;
+	background: #E0E0E0;
+	height: .5rem;
+}
+.all{
+	/* text-align: center; */
+	display: flex;
+	justify-content: space-between;
+	
+}
+.total span{
+	display: inline-block;
+	margin: .15rem .4rem;
+}
+.total a{
+	display: inline-block;
+	text-decoration: underline;
+	color: #009900;
+}
+.show{
+	margin-top: .5rem;
+}
+.show1{
+	display: flex;
+	justify-content: space-between;
+	font-size: .26rem;
+	text-align: center;
+	color: #656565;
+	/* margin-bottom: .4rem; */
+	margin: 0 .3rem .4rem .3rem;
+}
+.show1 img{
+	height: .46rem;
+}
+.img1{
+	position: relative;
+}
+.img2{
+	position: absolute;
+	top: -.15rem;
+	right: -.15rem;
+}
+.two img{
+	width:.3rem;
+	height:.3rem;	
+}
+.two1{
+	border-radius: .2rem;
+		border: 1px solid #CCCCCC;
+		height: .4rem;
+}
+.look{
+	position: absolute;
+	    top: 4.5rem;
+	right: 0;
+	border: 1px solid #333333;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.look img{
+	width: 1.1rem;
+	height: 1.05rem;
+}
+@media screen and (width: 414px) {
+	html {
+		font-size: 55px;
+	}
+}
+
+@media screen and (width: 320px) {
+	html {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	html {
+		font-size: 80px;
+	}
+}

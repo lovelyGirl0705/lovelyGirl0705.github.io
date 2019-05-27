@@ -1,0 +1,125 @@
+html {
+	font-size: 50px;
+}
+.top {
+	position: relative;
+	margin: .65rem 0 0 0;
+}
+
+.p1 img {
+
+	height: .36rem;
+	margin-left: .18rem;
+	font-weight: 400;
+}
+
+.top .p1 {
+	position: absolute;
+	    top: 0;
+    left: 0;
+}
+
+.top .p2 {
+	font-size: .36rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+.img1{
+	margin: .65rem .95rem .3rem .95rem;
+	text-align: center;
+}
+.img1 img{
+	width: 5.6rem;
+	height: 3.6rem;
+}
+.cen{
+	background: rgb(248,248,248);
+	
+}
+.top5{
+	display: flex;
+	justify-content: space-between;
+	margin-left: .6rem;
+	margin-right: .7rem;
+}
+.box{
+	/* margin-left: .6rem; */
+	/* margin-top:.35rem ; */
+	/* margin-bottom: .22rem; */
+	border-bottom: 1px solid #CCCCCC;
+	height: .9rem;
+	font-size: .28rem;
+	display: flex;
+	justify-content:flex-start;
+	
+}
+.box label{
+	margin: .3rem .5rem .2rem .6rem;
+	display: inline;
+	width: 1.5rem;
+}
+.box input{
+	    width: 4rem;
+    height: .5rem;
+    border: none;
+    margin-bottom: .25rem;
+    margin-top: .2rem;
+    margin-left: .15rem;
+}
+input:hover {
+	outline: none;
+	 border: 1px solid #333333;
+
+}
+.box select{
+	      width: 1.5rem;
+    height: .5rem;
+    border: none;
+    margin-bottom: .25rem;
+    margin-top: .2rem;
+}
+select:hover {
+	outline: none;
+	border: 1px solid #333333;
+	/* width: 5.3rem; */
+}
+.end{
+	margin: .9rem 2rem .25rem 2.1rem;
+	font-size: .22rem;
+	text-align: center;
+}
+.btn {
+	/* width: 100%; */
+	height: .9rem;
+	margin: 0 .3rem .9rem .3rem;
+	background: rgb(9, 187, 7);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.btn a {
+	color: white;
+	font-size: .36rem;
+	display:block;
+	    padding: .25rem;
+	margin-top: .29rem;
+	margin-bottom: .29rem;
+}
+@media screen and (width: 414px) {
+	html {
+		font-size: 45px;
+	}
+}
+
+@media screen and (width: 320px) {
+	html {
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	html {
+		font-size: 80px;
+	}
+}
